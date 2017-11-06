@@ -1,0 +1,68 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="QuanTri.master.cs" Inherits="QuanLyCafe.QuanTri" %>
+<asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
+
+            <nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      
+        <img src="img/cafe.jpg" style="width:60px;height:60px"/>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="TrangThaiBan.aspx">Trạng Thái các bàn<span class="sr-only">(current)</span></a></li>
+        
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dịch Vụ <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="ThemDichVu.aspx">Thêm dịch Vụ</a></li>
+              <li role="separator" class="divider"></li>
+            <li><a href="ChinhSuaDichVu.aspx">Chỉnh Sửa và xóa Dịch Vụ</a></li>
+              <li role="separator" class="divider"></li>
+            
+            <li><a href="ThongKe.aspx">Thống kê và tìm kiếm dịch Vụ</a></li>
+              <li role="separator" class="divider"></li>
+
+          </ul>
+        </li>
+
+          <li><a href="ThongKeDichVuDaDung.aspx">Thống kê DV đã dùng</a></li>
+      </ul>
+      
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#"></a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">>Chức năng hệ thống<span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="DangXuat.aspx">Đăng Xuất</a></li>
+            
+          </ul>
+        </li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder2" runat="server">
+     <asp:ContentPlaceHolder ID="header" runat="server">
+
+    </asp:ContentPlaceHolder>
+    <asp:ContentPlaceHolder ID="mainContent" runat="server">
+    </asp:ContentPlaceHolder>
+    <asp:ContentPlaceHolder ID="footer" runat="server">
+        <p>
+               Đây là footer của QuanTri.master
+        </p>
+    </asp:ContentPlaceHolder>
+</asp:Content>
+<asp:Content ID="Content3" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
+</asp:Content>

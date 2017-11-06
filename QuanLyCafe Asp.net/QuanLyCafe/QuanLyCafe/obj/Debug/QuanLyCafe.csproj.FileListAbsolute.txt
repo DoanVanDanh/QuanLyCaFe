@@ -1,0 +1,5 @@
+C:\Users\Presario CQ45\Desktop\QuanLyCafe Asp.net\QuanLyCafe\QuanLyCafe\bin\QuanLyCafe.dll
+C:\Users\Presario CQ45\Desktop\QuanLyCafe Asp.net\QuanLyCafe\QuanLyCafe\bin\QuanLyCafe.pdb
+C:\Users\Presario CQ45\Desktop\QuanLyCafe Asp.net\QuanLyCafe\QuanLyCafe\obj\Debug\QuanLyCafe.dll
+C:\Users\Presario CQ45\Desktop\QuanLyCafe Asp.net\QuanLyCafe\QuanLyCafe\obj\Debug\QuanLyCafe.pdb
+C:\Users\Presario CQ45\Desktop\QuanLyCafe Asp.net\QuanLyCafe\QuanLyCafe\obj\Debug\QuanLyCafe.csprojResolveAssemblyReference.cache
